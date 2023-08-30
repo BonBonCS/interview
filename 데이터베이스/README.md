@@ -32,6 +32,38 @@
 </details>
 <br />
 
+<details>
+   <summary> <b>4. </b> 데이터베이스에서 발생하는 이상 현상에 대해 설명해주세요.  </summary> <br />
+<div>
+      
+- 테이블을 설계할 때 잘못 설계하여 데이터 삽입, 삭제, 수정 시 논리적으로 생기는 오류입니다. 삽입 이상, 갱신 이상, 삭제 이상 3가지가 있습니다.
+  
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>5. </b> 트랜잭션에서 사용하는 두 연산을 설명해주세요.  </summary> <br />
+<div>
+      
+- COMMIT과 ROLLBACK 연산을 사용할 수 있다.
+- COMMIT은 하나의 트랜잭션이 성공적으로 끝났고, DB가 일관성있는 상태임을 알려주기 위해 사용한다.
+- ROLLBACK은 트랜잭션이 정상적으로 종료되지 않았을 때, 트랜잭션의 시작 상태로 돌리기 위해 사용한다.
+  
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>6. </b> 데이터베이스 정규화가 필요한 이유를 설명해주세요.  </summary> <br />
+<div>
+      
+- 데이터의 중복을 최소화하고 데이터의 일관성, 유연성을 확보하기 위해 필요하다.
+  
+</div>
+</details>
+<br />
+
 ### 이하린
 <details>
    <summary> <b>1. </b> Inner Join과 Outer Join의 차이에 대해 설명해주세요. </summary> <br />
