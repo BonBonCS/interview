@@ -68,7 +68,44 @@
 </details>
 <br />
 
+### 황주원
+<details>
+   <summary> <b>1. </b> Hash Map과 Hash Table의 차이점에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- 동기화 지원 여부와 null 값 허용 여부의 차이가 있습니다.
+- 해시 테이블은 동기화를 지원하여 Thread-safe 합니다. 또한, Null 값을 허용하지 않습니다.
+- 해시 맵은 동기화를 지원하지 않아 Thread-safe하지 않습니다. 또한, Null 값을 허용합니다.
 
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>2. </b> Array와 ArrayList의 차이점에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- Array는 크기가 고정적이고, ArrayList는 크기가 가변적입니다.
+- Array는 초기화 시 메모리에 할당되어 ArrayList보다 속도가 빠르고, ArrayList는 데이터 추가 및 삭제 시 메모리를 재할당하기 때문에 속도가 Array보다 느립니다.
+
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>3. </b> Stack과 Queue의 실사용 예를 들어 간단히 설명해주세요. </summary> <br />
+<div>
+      
+- **Stack**은 **자바의 Stack 메모리 영역**에 사용됩니다.
+   - 지역변수와 매개변수 데이터 값이 저장되는 공간입니다. 메소드 호출시 메모리에 할당되고 종료되면 메모리가 해제되며, LIFO(Last In First Out)구조를 가집니다.
+
+- **Queue**는 **OS의 스케쥴러**에 사용됩니다.
+   - 자원의 할당과 회수를 하는 스케쥴러 역할을 큐가 할 수 있습니다. 메모리에 적재된 다수의 프로세스 중 어떤 프로세스에게 자원을 할당할 것인가 그 순서를 결정하는 것이 자원의 효율적인 사용에 있습니다. 
+   - 가장 단순한 형태의 스케쥴링 정책이 FCFS(First Com First Served) 즉, 큐라고 볼 수 있습니다.
+  
+</div>
+</details>
+<br />
 
 
 
