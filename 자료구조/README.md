@@ -107,6 +107,40 @@
 </details>
 <br />
 
+### 정효인
+<details>
+   <summary> <b>1. </b> Binary Tree와 Binary Search Tree에 대해서 설명해주세요. </summary> <br />
+<div>
+      
+- 이진트리(Binary Tree)는 자식 노드가 최대 두 개인 노드들로 구성된 트리이고, 이진 탐색 트리(BST)는 이진 탐색과 연결 리스트를 결합한 자료구조입니다.
+- 이진 탐색 트리(BST)는 왼쪽 트리의 모든 값은 반드시 부모 노드보다 작아야 하고, 오른쪽 트리의 값은 부모 노드보다 커야 하는 특징이 있습니다.
+- 시간 복잡도는 O(h)이며, 트리의 균형이 한쪽으로 치우쳐진 경우 worst case가 되고 O(n)의 시간 복잡도를 가집니다. → 이런 worst case를 막기 위해 나온 기법이 RBT(Red-Black Tree)
 
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>2. </b> HashMap과 HashTable의 차이점에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- 동기화 지원 여부와 null 값 허용 여부의 차이가 있습니다.
+- 해시 테이블(Hash Table)은 병렬 처리를 할 때 (동기화를 고려해야 하는 상황) Thread-safe 하고 Null 값을 허용하지 않습니다.
+- 해시 맵(Hash Map)은 Thread-safe하지 않고 Null 값을 허용합니다.
+
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>3. </b> 그래프와 트리의 차이점에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- 그래프>트리(그래프가 트리를 포함하는 형태)
+- 그래프는 방향, 무방향 모두 존재하지만 트리는 방향만 존재합니다.
+  
+</div>
+</details>
+<br />
 
 
