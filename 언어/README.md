@@ -74,3 +74,36 @@
 </div>
 </details>
 <br />
+
+### 황주원
+<details>
+   <summary> <b>1. </b> 오버라이딩과 오버로딩이 무엇이며 어떤 차이가 있을까요? </summary> <br />
+<div>
+      
+- 오버라이딩은 상위 클래스의 메소드를 재정의 하는 것을 의미합니다. 또한, 런타임 다형성이기도 합니다.
+- 오버로딩은 같은 클래스 내에서 동일한 메소드 이름을 가지지만, 매개변수의 타입, 개수가 다르게 구현할 수 있는 것을 의미합니다. 또한, 컴파일 타임 다형성이기도 합니다. 따라서 오버라이딩 될 수 있습니다.
+
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>2. </b> String, StringBuilder, StringBuffer 각각의 차이에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- String은 불변입니다. StringBuilder와 StringBuffer는 가변타입입니다.
+- StringBuilder와 StringBuffer는 Thread-safe 여부의 차이가 있습니다. StringBuilder는 Thread-safe하지 않습니다. 따라서 Multi-Thread 환경에서 사용할 때는 StringBuffer를 사용합니다.
+
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>3. </b> Optional에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- Optional은 null이 될 수도 있는 객체를 감싸고 있는 일종의 래퍼 클래스입니다. 따라서, Optional 객체를 이용하면 복잡한 조건문 없이도 null값으로 인해 발생하는 예외를 처리할 수 있습니다.
+
+</div>
+</details>
+<br />
