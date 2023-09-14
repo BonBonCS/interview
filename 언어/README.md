@@ -107,3 +107,38 @@
 </div>
 </details>
 <br />
+
+### 정효인
+<details>
+   <summary> <b>1. </b> GC(garbage collection)란 무엇인가요? </summary> <br />
+<div>
+
+- 힙 영역에서 사용하지 않는 객체들을 제거하는 작업입니다. 자바는 gc로 인해 개발자가 별도의 메모리 관리가 필요 없습니다.
+      
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>2. </b> 인터페이스와 추상클래스의 차이점에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- 추상클래스는 공통된 개념을 표현할 때 사용합니다. 단일 상속만 가능하고 추상클래스를 상속하는 집합간에는 연관관계가 있습니다.
+- 인터페이스는 구현 객체가 같은 동작을 한다는 것을 보장하기 위해 사용합니다. 다중 상속이 가능하고 인터페이스를 구현하는 집합간에는 관계가 없을 수 있습니다.
+
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>3. </b> 자바는 Call by Reference인가요 아니면 Call by Value인가요? </summary> <br />
+<div>
+      
+- 자바는 Call by Reference로 함수에 인자를 전달할 때 인자값을 복사하여 전달합니다.
+- 원본 데이터와 전달된 복사본이 서로 다른 메모리 주소를 가지기 때문에, 함수 내에서 인자의 값을 변경해도 원본 데이터에는 영향을 미치지 않습니다.
+- ex) C, C++, Java, Python
+  
+</div>
+</details>
+<br />
+<br />
