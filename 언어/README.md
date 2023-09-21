@@ -108,6 +108,48 @@
 </details>
 <br />
 
+<details>
+   <summary> <b>4. </b> MVC Pattern의 동작 과정에 대해 설명해주세요. </summary> <br />
+<div>
+      
+1. 클라이언트로부터 요청이 들어오면 dispatcherServlet이 가장 먼저 받습니다.
+2. HandlerMapping이 요청 URL과 매핑되는 Controller 검색 후 리턴합니다.
+3. HandlerAdapter에서 알맞은 controller 처리 요청합니다.
+4. ViewResolver에서 controller가 리턴한 view 검색후 view를 클라이언트로 보냅니다.
+   
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>5. </b> DTO를 사용하는 이유에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- 순환참조를 예방할 수 있습니다.
+    - JPA로 개발할 때, 양방향 참조를 사용했다면 순환참조를 조심해야 합니다.
+- 엔티티 내부 구현을 캡슐화할 수 있습니다.
+- DB Layer와 View Layer 사이의 역할을 분리하기 위해서입니다.
+
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>6. </b> 생성자 주입 사용시 장점에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- 순환 참조를 방지할 수 있습니다.
+    - 순환 참조는 A -> B를 참조하면서, B -> A를 참조하는 경우 발생하는 문제입니다.
+    - 생성자 주입은 먼저 빈을 생성하지 않고 주입하려는 빈을 찾습니다. 그래서 실행시 바로 순환참조 에러가 뜨면서 찾을 수 있습니다.
+- final 선언이 가능합니다.
+    - 생성자 주입 시, 의존성 주입이 클래스 인스턴스화 중에 시작되므로 final을 선언할 수 있습니다. 따라서 객체를 변경이 불가능하게 할 수 있습니다.
+- 테스트 코드를 작성하는데 용이합니다.
+    - 스프링 컨테이너 도움 없이 테스트 코드를 더 편리하게 작성 가능합니다.
+
+</div>
+</details>
+<br />
+
 ### 정효인
 <details>
    <summary> <b>1. </b> GC(garbage collection)란 무엇인가요? </summary> <br />
