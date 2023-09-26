@@ -75,6 +75,42 @@
 </details>
 <br />
 
+<details>
+   <summary> <b>4. </b> Spring의 Annotation이 무엇인지 설명해주세요. </summary> <br />
+<div>
+      
+- annotation은 Java5부터 추가된 문법 요소로 코드에 @를 이용해 주석처럼 달아 특별한 의미를 부여합니다.
+- 프로그램 관련 데이터를 제공하고 코드에 정보를 추가하는 정형화된 방법입니다.
+
+Component, Controller, Service, RequestHeader, RequestMapping, ResponseBody, Autowired 등이 있습니다.
+   
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>5. </b> 다양한 의존성 주입 방법 중 생성자 주입을 사용해야 하는 이유를 알고있나요? 하나에 대해서 자세히 설명해주세요. </summary> <br />
+<div>
+      
+- 변경의 가능성을 배제하고 불변성을 보장 (의존 관계의 변경이 거의 없기 때문에 수정의 가능성을 열어두면 유지보수성이 떨어짐)
+- 테스트 코드 작성이 쉬워짐 (컴파일 시점에 객체를 주입받아 코드를 작성하며, 주입하는 객체가 누락된 경우 컴파일 시점에 오류를 발견할 수 있음)
+- final 키워드 사용 가능 (다른 주입 방법은 객체 생성 이후에 호출되기 때문에 final을 사용할 수 없다. 근데 생성자 주입 방식은 필드 객체에 final 키워드를 사용할 수 있어 컴파일 시점에 누락된 의존성 확인 가능)
+- 객체 생성 시 순환 참조 에러를 파악할 수 있음 (객체의 생성과 의존관계 주입이 동시에 실행되기 때문, 다른 방식의 경우 빈의 생성과 @Autowired 시점이 분리되어 있어 호출이 되어야 에러를 확인할 수 있음)
+
+</div>
+</details>
+<br />
+
+<details>
+   <summary> <b>6. </b> AutoWiring 과정에 대해 설명해주세요. </summary> <br />
+<div>
+      
+- 컨테이너에서 타입(인터페이스 또는 오브젝트)을 이용해 의존 대상 객체를 검색하고 할당할 수 있는 빈 객체를 찾아 주입한다
+
+</div>
+</details>
+<br />
+
 ### 황주원
 <details>
    <summary> <b>1. </b> 오버라이딩과 오버로딩이 무엇이며 어떤 차이가 있을까요? </summary> <br />
